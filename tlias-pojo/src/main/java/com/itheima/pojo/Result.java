@@ -24,6 +24,7 @@ public class Result {
     public static Result error(String msg){
         System.out.println("xxx");
         System.out.println("hello ");
+        System.out.println("master test");
         return new Result(0,msg,null);
     }
 }
