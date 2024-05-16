@@ -22,6 +22,7 @@ public class Result {
     }
     //失败响应
     public static Result error(String msg){
+        System.out.println("xxx");
         return new Result(0,msg,null);
     }
 }
