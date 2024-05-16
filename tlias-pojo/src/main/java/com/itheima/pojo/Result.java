@@ -25,6 +25,7 @@ public class Result {
         System.out.println("xxx");
         System.out.println("hello ");
         System.out.println("master test");
+        System.out.println("hot-fix test");
         return new Result(0,msg,null);
     }
 }
